@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container1 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .container2 {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body>
+    flex-direction: column;
+    <p>
+        1、   flex-direction: column:主轴 cross axis ,起点在上
+        2、   flex-direction: column-reverse; 起点在下
+        3、   flex-direction: row-reverse; 起点在右边
+        4、   flex-direction: row; 起点在左边
+    </p>
+    <div class="container">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">2</button>
+        <button type="button" class="btn btn-primary">3</button>
+        <button type="button" class="btn btn-primary">4</button>
+        <button type="button" class="btn btn-primary">5</button>
+        <button type="button" class="btn btn-primary">6</button>
+        <button type="button" class="btn btn-primary">7</button>
+        <button type="button" class="btn btn-primary">8</button>
+    </div>
+
+    <div class="container1">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">2</button>
+        <button type="button" class="btn btn-primary">3</button>
+        <button type="button" class="btn btn-primary">4</button>
+        <button type="button" class="btn btn-primary">5</button>
+        <button type="button" class="btn btn-primary">6</button>
+        <button type="button" class="btn btn-primary">7</button>
+        <button type="button" class="btn btn-primary">8</button>
+    </div>
+    <div class="container2">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">2</button>
+        <button type="button" class="btn btn-primary">3</button>
+        <button type="button" class="btn btn-primary">4</button>
+        <button type="button" class="btn btn-primary">5</button>
+        <button type="button" class="btn btn-primary">6</button>
+        <button type="button" class="btn btn-primary">7</button>
+        <button type="button" class="btn btn-primary">8</button>
+    </div>
+</body>
+</html>
